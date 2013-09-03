@@ -1,28 +1,27 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 4 Skeleton App:
+* Mongoid / MongoDB
+* Devise 
+* Puma as development and production server
+* jQuery
+* Figaro for environment variables (in config/application.yml file)
+* ERB
+* SimpleForm
 
-Things you may want to cover:
+The new app should have the following 4 pages (all generic and no need for a theme at this point - a theme will be added as part of a new job):
 
-* Ruby version
+* Landing page
+* Login
+* Create new user
+* Edit account details
+* Internal page (where user goes once logged on)
 
-* System dependencies
+Page features:
 
-* Configuration
+* Landing page: links to "Login" or "Sing up" pages
+* Internal page: link to "Sign out" or "Edit account details" pages
+* Edit account details: Fields to change password and email address
+* Login and Create new user pages with their Devise defaults
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
